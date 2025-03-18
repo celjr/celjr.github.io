@@ -20,7 +20,7 @@ body{
 }
 .logo > img {
   left: 30%;
-  height: 300px;
+  width: 33%;
   z-index: 10;
   position: absolute;
   top: 380px;

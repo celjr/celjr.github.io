@@ -41,7 +41,7 @@ section{
   display: grid;
   grid-template-columns: auto auto;
 }
-.horizontal-content > video{
+.horizontal-content > iframe{
   width: 100%;
   margin: auto;
 }

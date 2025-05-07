@@ -14,7 +14,7 @@ alert('a cor da sua nota mudou para amarelo');
 function scrollFunction(){
    const nav= document.getElementById('navbar');
    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-      nav.style.backgroundColor='gray';
+      nav.style.backgroundColor='white';
     }else {
       nav.style.backgroundColor='transparent';
     }

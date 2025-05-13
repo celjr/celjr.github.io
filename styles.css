@@ -6,7 +6,16 @@
 :root{
   --color-white: #000000;
 }
-
+@media (max-width: 800px){
+section#about{
+  display: flex;
+  flex-direction: column;
+}
+  section#contact{
+  display: flex;
+  flex-direction: column;
+}
+}
 body{
   background-color: black;
   color: whitesmoke;
@@ -58,6 +67,19 @@ section{
 section#about{
   display: flex;
 }
+section#contact{
+  display: flex;
+}
+section#contact p{
+ color: white;
+  align-items: center;
+}
+.director{
+  width:33%;
+}
+section#about p{
+  color:white;
+}
 .horizontal-content{
   width: 100%;
   display: grid;
@@ -84,12 +106,7 @@ section#about{
   font-size: 120%;
   color: red;
 }
-section#contact p{
- color: white; 
-}
-section#about p{
-  color:white;
-}
+
 p{
   color: gold;
   font-family: Verdana;
